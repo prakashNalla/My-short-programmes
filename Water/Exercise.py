@@ -21,14 +21,14 @@ while run =="y":
             if a == "y":
                 start_time = time()
                 mixer.music.pause()
-                print(f"Done at + {datetime.now()}\n")
+                print(f"Done at : {datetime.now()}\n")
             elif a=="re" or a == "change" or a == "reset":
                 start_time = time()
                 mixer.music.pause()
                 samay = eval(input("\nTime after which u want 2 Move\n"))
                 samay = samay*60    
             elif a=="exit":
-                run == n
+                run == "n"
             elif a == "n" :
                 print("\nTho hill le na bsdk\n")
                 continue
